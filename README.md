@@ -15,19 +15,21 @@ Release Strategy: Monthly/yearly patterns in track releases and their impact on 
 ## 2.Problem Statement
 The Project aims to:
 
-Understand why certain tracks/artists dominate streams while others underperform.
+- Understand why certain tracks/artists dominate streams while others underperform.
 
-Optimize playlist curation based on audio features (danceability, energy).
+- Optimize playlist curation based on audio features (danceability, energy).
 
-Identify ideal release timing for new tracks to maximize visibility.
+- Identify ideal release timing for new tracks to maximize visibility.
 
-Improve promotional strategies for emerging artists.
+- Improve promotional strategies for emerging artists.
 
 ## 3. Data Overview
 
 Streaming Data: Total streams (489B), platform-specific performance (Spotify, Apple, Deezer).
 
-Track Metadata: Danceability scores, energy levels, release dates.
+Total Songs: 943 Tracks
+
+Track Metadata: Danceability scores, energy levels, release dates, the songs are futher categorized into Minor and Major.
 
 Artist Metrics: Stream distribution across 645 artists, monthly trends.
 
@@ -53,54 +55,57 @@ Tools: Power BI (for visualizations), Excel (data aggregation).
 ### A. Artist & Track Performance
 Dominant Artists:
 
-The Weeknd (Spotify), Taylor Swift (Apple), and Ed Sheeran (Deezer) lead platform-specific streams.
+- The Weeknd (Spotify), Taylor Swift (Apple), and Ed Sheeran (Deezer) lead platform-specific streams.
 
-Top 10 Artists with more streams (e.g., The Weekend, Taylor Swift, Ed sheeran, Harry Style, Bad Bunny, Olivia Rodrigo, Eminem, Bruno Mars, Arctic Monkeys and Imagine Dragon . This artist total stream range from 15B to 5B.
+Top 10 Artists with more streams (e.g., The Weekend, Taylor Swift, Ed sheeran, Harry Style, Bad Bunny, Olivia Rodrigo, Eminem, Bruno Mars, Arctic Monkeys and Imagine Dragon .This artist total stream range from 15B to 5B.
 
 Top Tracks:
 
-"Blinding Lights" dominates across platforms which include (43,899 Spotify playlists, 3,421 Deezer).
+- "Blinding Lights" dominates across platforms which include (43,899 Spotify playlists, 3,421 Deezer).
 
-"Shape of You", "Someone you love", "Dance Monkey","Sunflower" and "one last dance" show cross-platform consistency.
+- "Shape of You", "Someone you love", "Dance Monkey","Sunflower" and "one last dance" show cross-platform consistency.
 
 Underperforming Tracks:
-Least-streamed tracks (e.g., "Gol Bolinha", "QUEMA", "Jhoome jo pathan", "Que Vueles" and "Love grows") average <1M streams (104 total).
+- Least-streamed tracks (e.g., "Gol Bolinha", "QUEMA", "Jhoome jo pathan", "Que Vueles" and "Love grows") average <1M streams (104 total).
 
 ### B. Listener Preferences
 Danceability Drives Engagement:
 
-Top 10 danceable tracks (e.g.,"About Damn Time","Take my breathe","Spit in my Face", "Flowers", & "Numb") average 85% danceability scores.
+- Top 10 danceable tracks (e.g.,"About Damn Time","Take my breathe","Spit in my Face", "Flowers", & "Numb") average 85% danceability scores.
 
-High danceability correlates with 2.3x more streams vs. low-danceability tracks.
+- High danceability correlates with 2.3x more streams vs. low-danceability tracks.
+
+- average stream per track 758.85M
 
 ### Energy Matters:
 
-41% of tracks classified as "high energy" generate 65% of total streams.
+- 41% of tracks classified as "high energy" generate 65% of total streams.
 
 ### C. Release Strategy
 Monthly Trends:
 
-January and May see peak track streams (100+ tracks), aligning with 30% higher streams for these months.
+- January and May see peak track streams (100+ tracks), aligning with 30% higher streams for these months.
 
-November-December releases underperform due to holiday music dominance.
+- November-December releases underperform due to holiday music dominance.
 
 Yearly Analysis:
 
-2023 releases contributed 5.28% of annual streams, highlighting listener preference for new content
+- Out of all tracks released in 2023, (5.28% of Annual streams) gained enough traction to appear on at least one major platform's chart/playlist.
 
 ### D. Platform-Specific Patterns
 
 Playlist Impact:
 
-Tracks in Spotify playlists gain 4x more streams than non-playlisted tracks.
+- Tracks in Spotify playlists gain 4x more streams than non-playlisted tracks. Example: "Blinding Lights" (Spotify playlists: 43,899 vs. Apple: 672).
 
-Example: "Blinding Lights" (Spotify playlists: 43,899 vs. Apple: 672).
+- The analysis revealed that 942 unique tracks from the 2023 dataset appeared in at least one major music chart or playlist across the following platforms: Spotify Charts, Apple Playlists, Deezer Charts, and Shazam Charts.
 
-Regional Preferences:
+Platform  Preferences:
 
-Deezer users favor Ed Sheeran (playlists: 3,421), while Apple users prefer ballads (e.g., Taylor Swift).
+- Deezer users favor Ed Sheeran (playlists: 3,421), while Apple users prefer ballads (e.g., Taylor Swift).
 
 ### 6. Recommendations
+
 - Curate High-Energy Playlists: Prioritize tracks with >70% danceability/energy scores in algorithmic recommendations.
 
 - Artist Promotion: Boost marketing for emerging artists (e.g., Boldfame, G2A) during high-engagement months (January/May).
@@ -110,4 +115,5 @@ Deezer users favor Ed Sheeran (playlists: 3,421), while Apple users prefer balla
 - Revive Underperforming Tracks: Re-promote low-stream tracks (e.g., "QUEMA") in genre-specific playlists.
 
 ## 7. Conclusion
+
 The 2023 data reveals a clear link between audio features, release timing, and streaming success. By aligning content strategy with listener preferences and optimizing platform-specific approaches, Spotify can enhance user retention and attract new subscribers.
